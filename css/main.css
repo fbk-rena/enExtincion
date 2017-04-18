@@ -1,0 +1,48 @@
+*{
+   background: black;
+}
+ul, button, li, a{
+   background-color: red;
+   padding: 0;
+}
+li{
+   display: inline-block;
+   padding: 20px;
+   list-style: none;
+}
+a, button{
+   color: aliceblue;
+   font: "verdana";
+}
+a:hover{
+   color: lightsteelblue;
+}
+
+button, p{
+   display: inline-block;
+}
+p{
+   display: inline-block;
+   width: calc((100%-50px)/2);
+}
+
+#texto{
+   color: antiquewhite;
+   display: inline-block
+}
+
+.box-img{
+   display: inline-block;
+   width: 20%;
+   margin: 15px;
+}
+
+.box-img img{
+    max-width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.box-img img:hover {opacity: 0.5;}
+
