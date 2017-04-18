@@ -21,7 +21,7 @@ a:hover{
 button, p{
    display: inline-block;
 }
-p{
+p, h3{
    display: inline-block;
    width: calc((100%-50px)/2);
 }
